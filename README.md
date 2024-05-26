@@ -16,7 +16,7 @@ For more information about the problem, see [1], particularly Section 6 therein.
 
 5. The "FW_oracle_entropic_risk.m" is the FW oracle for the Entropic risk DRO problem [Lemma 6.4, 1]
 
-6. The "compute_worst_case_cost.m" file evaluates $` \sup_{\mathbb{P} \in \mathcal{P}} \quad \mathcal{E}({x},{\mathbb{P}}) `$ for plotting purpose
+6. The "compute_worst_case_cost.m" file evaluates $` \sup_{\mathbb{P} \in \mathcal{P}} \mathcal{E}({x},{\mathbb{P}}) `$ for plotting purpose
 
 7. The "plot_n_pdf.m" file generates the convergence plots for the algorithm and creates individual pdfs
 
@@ -25,6 +25,6 @@ For more information about the problem, see [1], particularly Section 6 therein.
 
 References
 
-[1] NDRO paper
+[1] M. R. Sheriff, P. Mohajerin Esfahani, "Nonlinear Distributionally Robust Optimization", arXiv: 2306.03202
 
-[2] FISTA paper
+[2] A. Beck, and M. Teboulle. "A fast iterative shrinkage-thresholding algorithm for linear inverse problems." SIAM journal on imaging sciences 2.1 (2009): 183-202.
