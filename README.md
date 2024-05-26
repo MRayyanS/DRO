@@ -1,3 +1,5 @@
+# NDRO - minimum entropic risk portfolio selection
+
 This repository contains the MATLAB code for the DRO problem of portfolio selection to minimize the Entropic risk.
 
 $$
