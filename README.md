@@ -12,7 +12,7 @@ For more information about the problem, see [1], particularly Section 6 therein.
 
 3. The "entropic_risk_DRO.m" file takes the prolem data and solves the DRO problem
 
-4. The "solve_for_x.m" file implements $ \min_{x \in  \Delta^n} \quad \mathcal{E}({x},{\mathbb{P}}) $ using FISTA algorith, [2]
+4. The "solve_for_x.m" file implements $` \min_{x \in  \Delta^n} \quad \mathcal{E}({x},{\mathbb{P}}) `$ using FISTA algorith, [2]
 
 5. The "FW_oracle_entropic_risk.m" is the FW oracle for the Entropic risk DRO problem [Lemma 6.4, 1]
 
