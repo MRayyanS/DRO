@@ -1,19 +1,16 @@
 # NDRO - minimum variance portfolio selection
 
-This repository contains the MATLAB code for the DRO problem of portfolio selection to minimize the Entropic risk.
+This repository contains the MATLAB code for the DRO problem of portfolio selection to minimize the variance.
 
 $$
 \min_{x \in \Delta^n} \sup_{\mathbb{P} \in \mathcal{P}} \quad V ({x},{\mathbb{P}}) \coloneqq x^\top \big( \Sigma_{\mathbb{P}} - \mu_{\mathbb{P}} \mu_{\mathbb{P}}^\top \big) x ,
 $$
 
-where $` \Sigma_{\mathbb{P}} \coloneqq \mathbb{E}_{\mathbb{P}} [\xi \xi^\top] `$ and \( \mu_{\mathbb{P}} \coloneqq \mathbb{E}_{\mathbb{P}} [\xi] \).
+where $` \Sigma_{\mathbb{P}} \coloneqq \mathbb{E}_{\mathbb{P}} [\xi \xi^\top] `$ and $` \mu_{\mathbb{P}} \coloneqq \mathbb{E}_{\mathbb{P}} [\xi] `$. For more information about the problem, see [Section 7, 1], particularly page no. 31.
 
+1. The "portfolio_optimization_DRO_ellipsoidal_support.m" is the main file
 
-For more information about the problem, see [1], particularly Section 6 therein.
-
-1. The "portfolio_optimization_DRO.m" is the main file
-
-2. The "generate_data.m" file generates synthetic data for the problem as discussed in [1, Section 6.3]
+2. The "generate_data_ellipsoidal_support.m" file generates synthetic data for the problem as discussed in [1, Section 7.3]
 
 3. The "entropic_risk_DRO.m" file takes the prolem data and solves the DRO problem
 
