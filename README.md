@@ -3,7 +3,7 @@
 This repository contains the MATLAB code for the DRO problem of portfolio selection to minimize the Entropic risk.
 
 $$
-\min_{x \in \Delta^n} \sup_{\mathbb{P} \in \mathcal{P}} \quad V ({x},{\mathbb{P}}) \coloneqq x^\top \big( \Sigma_{\mathb{P}} - \mu_{\mathb{P}} {\mathb{P}}^\top \big) x .
+\min_{x \in \Delta^n} \sup_{\mathbb{P} \in \mathcal{P}} \quad V ({x},{\mathbb{P}}) \coloneqq x^\top \big( \Sigma_{\mathbb{P}} - \mu_{\mathbb{P}} {\mathbb{P}}^\top \big) x .
 $$
 
 For more information about the problem, see [1], particularly Section 6 therein.
